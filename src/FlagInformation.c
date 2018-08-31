@@ -8,7 +8,56 @@
 #include "Replacements.h"
 
 #ifndef _WIN32
-#include "Images/af.h"
+#include "Images/al.h"
+#include "Images/ak.h"
+#include "Images/az.h"
+#include "Images/ar.h"
+#include "Images/ca.h"
+#include "Images/co.h"
+#include "Images/ct.h"
+#include "Images/de.h"
+#include "Images/fl.h"
+#include "Images/ga.h"
+#include "Images/hi.h"
+#include "Images/id.h"
+#include "Images/il.h"
+#include "Images/in.h"
+#include "Images/ia.h"
+#include "Images/ks.h"
+#include "Images/ky.h"
+#include "Images/la.h"
+#include "Images/me.h"
+#include "Images/md.h"
+#include "Images/ma.h"
+#include "Images/mi.h"
+#include "Images/mn.h"
+#include "Images/ms.h"
+#include "Images/mo.h"
+#include "Images/mt.h"
+#include "Images/ne.h"
+#include "Images/nv.h"
+#include "Images/nh.h"
+#include "Images/nj.h"
+#include "Images/nm.h"
+#include "Images/ny.h"
+#include "Images/nc.h"
+#include "Images/nd.h"
+#include "Images/oh.h"
+#include "Images/ok.h"
+#include "Images/or.h"
+#include "Images/pa.h"
+#include "Images/ri.h"
+#include "Images/sc.h"
+#include "Images/sd.h"
+#include "Images/tn.h"
+#include "Images/tx.h"
+#include "Images/ut.h"
+#include "Images/vt.h"
+#include "Images/va.h"
+#include "Images/wa.h"
+#include "Images/wv.h"
+#include "Images/wi.h"
+#include "Images/wy.h"
 #endif
 
 #ifndef _WIN32
@@ -61,8 +110,8 @@ struct FlagInfo
    C( Montana, "Montana", "Helena", 1015165, 380832, mt, P("Images/mt.bmp")),
    C( Nebraska, "Nebraska", "Lincoln", 1868516, 200330, ne, P("Images/ne.bmp")),
    C( Nevada, "Nevada", "Carson City", 2790136, 286380, nv, P("Images/nv.bmp")),
-   C( NewHampshire, "New Hampshire", "Concord", 1323459, 24214, af, P("Images/ak.bmp")),
-   C( NewJersey, "New Jersey", "Trenton", 8899339, 22592, nh, P("Images/nh.bmp")),
+   C( NewHampshire, "New Hampshire", "Concord", 1323459, 24214, nh, P("Images/nh.bmp")),
+   C( NewJersey, "New Jersey", "Trenton", 8899339, 22592, nj, P("Images/nj.bmp")),
    C( NewMexico, "New Mexico", "Santa Fe", 2085287, 314917, nm, P("Images/nm.bmp")),
    C( NewYork, "New York", "Albany", 19651127, 141297, ny, P("Images/ny.bmp")),
    C( NorthCarolina, "North Carolina", "Raleigh", 9848060, 139391, nc, P("Images/nc.bmp")),
